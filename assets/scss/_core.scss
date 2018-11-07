@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    background: #fff;
+    min-width: 320px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+header,
+section,
+footer {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+input,
+textarea,
+button,
+select {
+    outline: none;
+    border-radius: 0px;
+    -webkit-appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
